@@ -8,6 +8,7 @@ DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 theme = "paper"
+uglyurls = true
 
 [menu]
 
@@ -16,6 +17,9 @@ theme = "paper"
     name = "About"
     url = "/about/"
     weight = 10
+
+[permalinks]
+  posts = "/:year/:month/:title/"
 
 [taxonomies]
 category = "categories"
